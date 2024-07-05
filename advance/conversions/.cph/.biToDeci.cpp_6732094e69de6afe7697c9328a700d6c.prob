@@ -1,0 +1,1 @@
+{"name":"Local: biToDeci","url":"h:\\c++\\advance\\conversions\\biToDeci.cpp","tests":[{"id":1720194948809,"input":"101","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\c++\\advance\\conversions\\biToDeci.cpp","group":"local","local":true}
