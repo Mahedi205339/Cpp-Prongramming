@@ -1,0 +1,1 @@
+{"name":"Local: deciTobinary","url":"h:\\c++\\advance\\conversions\\deciTobinary.cpp","tests":[{"id":1720246407845,"input":"10","output":"1010"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\c++\\advance\\conversions\\deciTobinary.cpp","group":"local","local":true}
