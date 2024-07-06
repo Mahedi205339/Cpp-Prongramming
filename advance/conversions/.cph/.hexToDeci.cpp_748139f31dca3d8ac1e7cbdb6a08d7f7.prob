@@ -1,0 +1,1 @@
+{"name":"Local: hexToDeci","url":"h:\\c++\\advance\\conversions\\hexToDeci.cpp","tests":[{"id":1720245713038,"input":"1CF54","output":"118612"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\c++\\advance\\conversions\\hexToDeci.cpp","group":"local","local":true}
