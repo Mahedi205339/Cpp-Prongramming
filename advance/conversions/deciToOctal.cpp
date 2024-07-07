@@ -6,8 +6,7 @@ int deciToOctal(int n)
 {
     int ans = 0;
     int x = 1;
-    
-    // Finding the largest power of 2 less than or equal n
+
     while (x <= n)
     {
         x *= 8;
