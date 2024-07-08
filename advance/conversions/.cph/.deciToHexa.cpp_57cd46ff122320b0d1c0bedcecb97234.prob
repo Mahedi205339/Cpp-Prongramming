@@ -1,1 +1,1 @@
-{"name":"Local: deciToHexa","url":"h:\\c++\\advance\\conversions\\deciToHexa.cpp","tests":[{"id":1720371880711,"input":"100","output":"64"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\c++\\advance\\conversions\\deciToHexa.cpp","group":"local","local":true}
+{"name":"Local: deciToHexa","url":"h:\\c++\\advance\\conversions\\deciToHexa.cpp","tests":[{"id":1720371880711,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\c++\\advance\\conversions\\deciToHexa.cpp","group":"local","local":true}
