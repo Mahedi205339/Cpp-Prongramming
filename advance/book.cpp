@@ -40,5 +40,9 @@ int main()
     cin >> pY;
     b2.data(t, a, pY);
     b2.showData();
+    Book b3;
+    b3.data("Micro-finance", "Dr. Mohammad Yunus", 2020);
+    b3.showData();
+
     return 0;
 }
