@@ -18,4 +18,19 @@ int main()
     int n;
     cout << "Input amount :";
     cin >> n;
+    int wrap = n;
+
+    int totalChocolate = n;
+    int wrappers = totalChocolate;
+
+    while (wrappers >= 3)
+    {
+        int freeChocolates = wrappers / 3;
+        totalChocolate += freeChocolates;
+        wrappers = freeChocolates + (wrappers % 3);
+    }
+
+    cout << "Total chocolates you can get :" << totalChocolate << endl;
+
+    return 0;
 }
