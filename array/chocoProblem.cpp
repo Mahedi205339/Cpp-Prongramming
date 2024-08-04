@@ -1,13 +1,10 @@
 /*
 
  Problem :
-
-
        one chocolate = 1 taka ;
        three chocolate packet = 1 chocolate ;
 
        then how many chocolate would buy by 15 taka ?
-
  */
 
 #include <iostream>
