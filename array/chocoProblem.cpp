@@ -5,6 +5,7 @@
        three chocolate packet = 1 chocolate ;
 
        then how many chocolate would buy by 15 taka ?
+       here is the ans ->
  */
 
 #include <iostream>
