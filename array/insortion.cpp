@@ -23,8 +23,14 @@ int main()
             j--;
         }
 
-        arr[j +1] =  current ;
+        arr[j + 1] = current;
     }
 
-    return;
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }
