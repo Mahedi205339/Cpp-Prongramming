@@ -9,13 +9,13 @@ class Gambit
         cout<<"Hello there i'm the constructor"<<endl;
     }
     ~Gambit(){
-         cout<<"Hello there i'm the distructor"<<endl;
+         cout<<"Hello there i'm the destructor"<<endl;
     }
 
     void display(){
         cout<<"Hello!"<<endl;
     }
-}
+};
 
 int main (){
     Gambit gam;
