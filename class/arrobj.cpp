@@ -3,7 +3,7 @@ using namespace std;
 
 class ShopItem
 {
-    int if;
+    int id;
     float price;
 
 public:
@@ -20,11 +20,13 @@ public:
 };
 int main()
 {
-    int p, q;
+    int p, i;
+    float q;
     int size = 2;
     ShopItem *ptr = new ShopItem[size];
+    ShopItem *ptrTemp = ptr;
 
-    for (int i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
         cout << "Enter Id and price of item " << i + 1 << endl;
         cin >> p >> q;
@@ -37,12 +39,12 @@ int main()
         ptr++;
     }
 
-    for (int i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
 
         cout << "Item number: " << i + 1 << endl;
-        ptr->getData();
-        ptr++;
+        ptrTemp->getData();
+        ptrTemp++;
     }
 
     return 0;
