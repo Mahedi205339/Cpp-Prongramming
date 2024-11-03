@@ -1,3 +1,24 @@
+/* 
+5. Create two classes, Person and Address. The Person class should contain information about a
+person's name and age, while the Address class should contain details about a person's address,
+including street, city, and postal code.
+1. Classes:
+○ Person:
+■ Attributes: name (string), age (int).
+■ Methods: Constructor to initialize attributes.
+○ Address:
+
+■ Attributes: street (string), city (string), postalCode (string).
+■ Methods: Constructor to initialize attributes.
+
+2. Friend Function:
+○ Create a friend function displayDetails that takes a Person object and an Address
+object as parameters and displays the complete details of the person, including their
+
+address.
+
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;
