@@ -11,11 +11,13 @@ public:
         a = n1;
         b = n2;
     }
+
     friend Complex sumComplex(Complex o1, Complex o2);
     void printNumber()
     {
         cout << "Your number is " << a << " + " << b << "i" << endl;
     }
+    
 };
 
 // Defining the friend function outside the class
