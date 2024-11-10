@@ -6,6 +6,13 @@ class Complex
     int a, b;
 
 public:
+    // Constructor to initialize a and b
+    Complex()
+    {
+        a = 30;
+        b = 40;
+    }
+
     void setNumber(int n1, int n2)
     {
         a = n1;
@@ -13,11 +20,11 @@ public:
     }
 
     friend Complex sumComplex(Complex o1, Complex o2);
+    
     void printNumber()
     {
         cout << "Your number is " << a << " + " << b << "i" << endl;
     }
-    
 };
 
 // Defining the friend function outside the class
@@ -31,8 +38,7 @@ Complex sumComplex(Complex o1, Complex o2)
 int main()
 {
     Complex c1, c2, sum;
-    c1.setNumber(1, 4);
-    c1.printNumber();
+    c1.printNumber();  // Using the default values set by the constructor
     c2.setNumber(3, 6);
     c2.printNumber();
 
